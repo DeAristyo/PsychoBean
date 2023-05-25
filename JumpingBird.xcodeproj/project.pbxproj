@@ -11,6 +11,7 @@
 		A5EA0D3B2A1DFEEC0083206A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EA0D3A2A1DFEEC0083206A /* ContentView.swift */; };
 		A5EA0D3D2A1DFEED0083206A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5EA0D3C2A1DFEED0083206A /* Assets.xcassets */; };
 		A5EA0D402A1DFEED0083206A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5EA0D3F2A1DFEED0083206A /* Preview Assets.xcassets */; };
+		A5EA0D472A1E061B0083206A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EA0D462A1E061B0083206A /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A5EA0D3A2A1DFEEC0083206A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A5EA0D3C2A1DFEED0083206A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5EA0D3F2A1DFEED0083206A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5EA0D462A1E061B0083206A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				A5EA0D382A1DFEEC0083206A /* JumpingBirdApp.swift */,
+				A5EA0D462A1E061B0083206A /* GameScene.swift */,
 				A5EA0D3A2A1DFEEC0083206A /* ContentView.swift */,
 				A5EA0D3C2A1DFEED0083206A /* Assets.xcassets */,
 				A5EA0D3E2A1DFEED0083206A /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5EA0D472A1E061B0083206A /* GameScene.swift in Sources */,
 				A5EA0D3B2A1DFEEC0083206A /* ContentView.swift in Sources */,
 				A5EA0D392A1DFEEC0083206A /* JumpingBirdApp.swift in Sources */,
 			);
